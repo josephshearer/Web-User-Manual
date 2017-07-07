@@ -1,0 +1,18 @@
+html, body{
+  padding-top: 30px;
+  height: 100%;
+  margin: 0;
+}
+
+.footer, .push{
+  height: 25px;
+}
+
+.container{
+  min-height: 95%;
+  margin-bottom: -25px;
+}
+
+header, footer{
+  text-align: center;
+}
