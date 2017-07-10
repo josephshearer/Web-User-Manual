@@ -4,6 +4,8 @@
     <meta charset="utf-8">
     <link rel="stylesheet" type = "text/css" href="bootstrap.min.css">
     <link rel="stylesheet" type = "text/css" href="wiki.css">
+    <script type="text/javascript" src ="jquery-3.2.1.min.js">
+    </script>
     <title>Wiki</title>
   </head>
   <body>
@@ -32,28 +34,41 @@
         </div>
       </div>
     </nav>
+<div class="viewport">
 
-<header>CLASSIFICATION</header>
-<div class="container">
-    <!-- /*main content -->
-    <div class="content">
-      <div class="row">
-        <div class="col-lg-2 col-sm-1">
-          <div class="list">
-            <img src="https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?dpr=1&auto=compress,format&fit=crop&w=991&h=661&q=80&cs=tinysrgb&crop=&bg=" alt="">
+  <div class="header">
+    <header>CLASSIFICATION</header>
+  </div>
+  <div class="content_container">
+      <!-- /*main content -->
+      <div class="content">
+        <div class="row">
+          <div id="listCol" class="col-lg-3 col-sm-2">
+            <div class="list">
+              <!-- <img src="https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?dpr=1&auto=compress,format&fit=crop&w=991&h=661&q=80&cs=tinysrgb&crop=&bg=" alt=""> -->
+              <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="col-lg-10 col-sm-11">
-          <div class="content_container">
-            <img src="https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?dpr=1&auto=compress,format&fit=crop&w=991&h=661&q=80&cs=tinysrgb&crop=&bg=" alt="">
+          <div id = "contentCol" class="col-lg-9 col-sm-10">
+            <div class="content_container">
+              <!-- <img src="https://images.unsplash.com/photo-1464823063530-08f10ed1a2dd?dpr=1&auto=compress,format&fit=crop&w=991&h=661&q=80&cs=tinysrgb&crop=&bg=" alt=""> -->
+              <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-      <div class="push"></div>
-    </div>
 
+  </div>
+  <div class="footer">
+    <footer>CLASSIFICATION</footer>
+  </div>
 </div>
-<footer>CLASSIFICATION</footer>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
